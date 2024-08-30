@@ -31,7 +31,7 @@ public class ExperienceManager : MonoBehaviour
 
     public void IaInputSelection()
     {
-        int selection = Random.Range(0, 5);
+        int selection = Random.Range(0, 4);
 
         string s = "";
         if (selection == 0) s = "W";
